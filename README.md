@@ -1,4 +1,4 @@
-# UnityAutomaticPerformanceTesting
+# Unity Performance Testing
 A simple little Unity project that tests if spawning a lot of Rigidbody cubes in a short time span reduces FPS.
 Utilizes the new performance testing framework in order to take measurements and present them.
 
