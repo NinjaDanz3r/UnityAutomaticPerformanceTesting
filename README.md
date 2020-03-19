@@ -13,7 +13,7 @@ After the tests have run, a magical little .xml report will appear in your proje
 The results will show that as we decrease the time between spawns and the amount of cubes spawned at once, the measured
 frame times get higher.
 
-## purpose
+## Purpose
 While this result is quite obvious, this project intends to show that we can extend this to a real scenario where
 we could set up a scene that is representative of a typical game scenario and automatically (through the command line) run performance tests in our projects.
 
