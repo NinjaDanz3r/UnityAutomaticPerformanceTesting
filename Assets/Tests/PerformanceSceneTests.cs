@@ -119,7 +119,7 @@ namespace Tests
         private void SetupSpawner(TestParameters parameters, SpawnCubes spawner)
         {
             spawner.TimeToSpawnBody = parameters.timeToSpawnBody;
-            spawner.NumberOfBodiesToSpawnAtOnce = parameters.NumberOfBodiesToSpawnAtOnce;
+            spawner.NumberOfBodiesToSpawnAtOnce = parameters.numberOfBodiesToSpawnAtOnce;
         }
 
         /// <summary>
