@@ -118,8 +118,8 @@ namespace Tests
         /// </summary>
         private void SetupSpawner(TestParameters parameters, SpawnCubes spawner)
         {
-            spawner.timeToSpawnBody = parameters.timeToSpawnBody;
-            spawner.numberOfBodiesToSpawnAtOnce = parameters.numberOfBodiesToSpawnAtOnce;
+            spawner.TimeToSpawnBody = parameters.timeToSpawnBody;
+            spawner.NumberOfBodiesToSpawnAtOnce = parameters.NumberOfBodiesToSpawnAtOnce;
         }
 
         /// <summary>
