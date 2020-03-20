@@ -4,17 +4,17 @@ public class SpawnCubes : MonoBehaviour
 {
     [SerializeField] private GameObject body = null;
     [SerializeField] private int numberOfBodiesToSpawn = 100000;
-    public int numberOfBodiesToSpawnAtOnce = 1;
-    public float timeToSpawnBody = 0f;
+    public int NumberOfBodiesToSpawnAtOnce = 1;
+    public float TimeToSpawnBody = 0f;
     private float timeSinceLastSpawn = 0f;
     private int numberOfSpawnedBodies = 0;
 
     // Update is called once per frame
     private void Update()
     {
-        if (timeSinceLastSpawn > timeToSpawnBody && numberOfSpawnedBodies < numberOfBodiesToSpawn)
+        if (timeSinceLastSpawn > TimeToSpawnBody && numberOfSpawnedBodies < numberOfBodiesToSpawn)
         {
-            for (int i = 0; i < numberOfBodiesToSpawnAtOnce; i++)
+            for (int i = 0; i < NumberOfBodiesToSpawnAtOnce; i++)
             {
                 Instantiate(body, transform.position + Random.insideUnitSphere * 10f, Quaternion.identity);
                 numberOfSpawnedBodies++;
