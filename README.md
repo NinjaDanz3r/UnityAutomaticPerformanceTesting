@@ -7,7 +7,9 @@ Select Window->General->Test Runner, click "PlayMode" and then hit the "Run all"
 After the tests have finished running, select Window->Analysis->Performance test report and hit the "Refresh" button in order to see the results.
 
 To run the tests through a console, use the following console command:
-Unity.exe -projectPath [Path to project directory] -testPlatform [your platform here] -buildTarget [your target here] -runTests -batchmode
+
+```Unity.exe -projectPath [Path to project directory] -testPlatform [your platform here] -buildTarget [your target here] -runTests -batchmode```
+
 After the tests have run, a magical little .xml report will appear in your project root that can be read in the editor the same way as above.
 
 The results will show that as we decrease the time between spawns and the amount of cubes spawned at once, the measured
